@@ -96,10 +96,10 @@ except NameError:
 """## Parameters"""
 
 data_sizes = ["100k"] # Movielens data size: 100k, 1m, 10m, or 20m
-# algorithms = ["als", "svd", "sar", "ncf", "embdotbias", "bpr", "bivae", "lightgcn"]
+algorithms = ["als", "svd", "sar", "ncf", "embdotbias", "bpr", "bivae", "lightgcn"]
 
 
-algorithms = ["als", "svd", "sar", "ncf", "bpr"]
+# algorithms = ["als", "svd", "sar", "ncf", "bpr"]
 
 
 environments = {
