@@ -32,8 +32,8 @@ try:
 except:
     pass
 
-current_path = "/content/recommenders/examples/06_benchmarks"
-# current_path = os.path.join(os.getcwd(), "examples", "06_benchmarks")
+# current_path = "/content/recommenders/examples/06_benchmarks"
+current_path = os.path.join(os.getcwd(), "examples", "06_benchmarks")
 
 #  # To execute the notebook programmatically from root folder
 sys.path.append(current_path)
